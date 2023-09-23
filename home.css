@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&family=Sanchez&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&family=Sanchez:ital@0;1&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: navy;
+}
+
+nav{
+    display: flex;
+    align-items: left;
+    flex-direction: row;
+     justify-content:space-around; 
+    background-color: rgba(0,0,0, 0.2);
+    padding: 20px 100px;
+}
+
+.logo{
+    padding-right: 600px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-menu{
+    display: contents;
+    align-items:left;
+    justify-content: center;
+    width: 60%;
+    font-family: 'Love Ya Like A Sister', cursive;
+}
+
+h1{
+    color: white;
+    font-family: 'Fascinate', cursive;
+    font-size: 30px;
+}
+
+
+.nav-menu a{
+    padding: 0px;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
+
+header{
+    background-image: url(gambar/Background\ home.png);
+    height: 900px;
+}
+
+.judul {
+    padding-top: 100px;
+   
+    text-align: center;
+
+}
+
+.judul h1{
+    font-size: 72px;
+}
+
+/* landing-page-slider-start */
+.tittle-landing{
+    z-index: 1;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 2rem 3rem;
+}
+
+.tittle-about{
+    font-size: 5rem;
+    margin-bottom: 1rem;
+}
+
+.subtittle-about{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 65px;
+    text-align: center;
+    font-family: 'Love Ya Like A Sister', cursive;
+}
+
+a img{
+    padding: 100px 50px ;
+}
+
+
+.tittle-landing h3{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.slider .slider:after{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    
+}
+
+.slider:after { 
+    content: '';
+    height: 100%;
+    background: transparent url(./gambar/Background\ home.png) repeat top left; 
+}
+
+.slider li span{
+    min-height: 120vh;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: transparent;
+    background-position: 0%;
+    background-position: no-repeat;
+    background-size: cover;
+    opacity: 0;
+    z-index: -1;
+    animation: slider 0s linear infinite 0s;
+
+}
+
+.slider li:nth-child(1) span{
+     background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),url(./gambar/Background\ home.png);
+     background-position: no-repeat;
+    background-size: cover;
+     opacity: 1;
+}
+
+.slider li:nth-child(1) span{
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),url(./gambar/Background\ home.png);
+    background-position: no-repeat;
+   background-size: cover;
+    opacity: 1;
+}
+
+.no-cssanimations .slider li span{
+    opacity: 1;
+}
+/* landing-page-slider-end */
+.button{
+    display: flex;
+    justify-content: center;
+}
+#btn {
+    text-decoration: none;
+    padding: 15px 20px;
+    border: 6px solid #6BA5AF;
+    border-radius: 20px;
+    background: black;
+    color: white;
+    font-size: 1.5em;
+    margin: 30px 0;
+  }
+
+  .tiga{
+      display: block;
+      justify-content: center;
+      align-items: center;
+  }
+
+
+/* home-start */
+
+#Galaxy{
+    background-image:url(gambar/BG\ galaxy.png) ;
+}
+
+.tittle-meet{
+    width: 100%;
+    text-align: end;
+}
+
+.border-card{
+  
+    padding: 8rem 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card{
+    background-color: darkgray;
+    border-radius: 10px;
+    width: 28%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem ;
+}
+
+.card2{
+    background-color: darkgray;
+    border-radius: 10px;
+    width: 19%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem ;
+}
+.card3{
+    background-color: darkgray;
+    border-radius: 10px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem ;
+}
+
+.card4{
+    background-color: white;
+    border-radius: 50px;
+    width: 29%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem ;
+}
+
+.border-news{
+  
+    padding: 8rem 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h3{
+    font-family: 'Sanchez', serif;
+    text-align: center;
+    font-size: 80px;
+    color: #FFFFFF;
+}
+
+h4{
+    font-family: 'Sanchez', serif;
+    text-align: center;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+h5{
+    font-family: 'Sanchez', serif;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+h6{
+    color: black;
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 40px;
+}
+.h7{
+    font-size: 60px;
+    font-family: 'Love Ya Like A Sister', cursive;
+    color: #FFFFFF;
+}
+.line{
+    height: 4px;
+    width: 50%;
+    background-color: black;
+    margin: 1rem 0;
+}
+
+.line2{
+    height: 4px;
+    width: 50%;
+    background-color: black;
+    margin: 2rem 0;
+}
+
+.content-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wrappername{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrappername img{
+    margin-right: 1rem;
+}
+
+#Star{
+    background-image:url(gambar/Group\ 36.png) ;
+}
+
+.tulisan{
+    width: 350px;
+}
+
+#Planet{
+    background-image: url(gambar/Space\ Spheres\ -\ Desktop\ Nexus\ Wallpapers.png);
+}
+/*Home end*/
+
+#Berita{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(gambar/Desktop\ Wallpaper\ Fantasy\,\ Planets\,\ Space\,\ Astronaut\,\ Hd\ Image\,\ Picture\,\ Background\,\ 07ee48.png);
+}
+* Footer */
+
+.address-social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: #eee;
+    padding-top: 1.5rem;
+    height: 240px;
+}
+
+.address-footer{
+    display: flex;
+    justify-content: center;
+}
+
+.address-name {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.address-info {
+    width: 450px;
+    text-align: center;
+}
+
+.address-address {
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.social-media-title {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.social-media-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.social-media a {
+    text-decoration: none;
+    display: flex;
+    color: black;
+    align-items: center;
+}
+
+.social-media-logo {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+/* Copyright dan Privacy */
+
+.copyright-privacy {
+    
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    justify-content: space-around;
+    height: 54px;
+    align-items: center;
+}
+
+.copyright {
+    color: black;
+    font-size: 20px;
+}
+
+
+.privacy {
+    color: #36A3DA;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+
+/* animation */
+@keyframes slider { 
+    0% { 
+        opacity: 0;
+        animation-timing-function: ease-in;
+    }
+    15% { 
+        opacity: 1;
+        animation-timing-function: ease-out;
+    }
+    40% {  
+        opacity: 1 
+    }
+    60% { 
+        opacity: 0 
+    }
+    100% { 
+        opacity: 0 
+    }
+}
+
+@keyframes scrollDown {
+    0%{
+        transform: translate(0,0);
+    }
+    50%{
+        transform: translate(0,15px);
+    }
+    100%{
+        transform: translate(0,0);
+    }
+}
